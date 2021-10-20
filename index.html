@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/425cc9dfa5.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./restaurant.css">
+</head>
+<body>
+    <main>
+        <!--carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner ms-2">     
+              <div class="carousel-item active" data-bs-interval="1200">
+                <div class="wier"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="mayb">EAT</h5>
+                    <p class="tagl fs-3">Have your choice</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <!--navigation-->
+                        <header>
+                            <nav class="navbar  navbar-expand-lg navbar-light bg-transaparent ">
+                        
+                              <div class="container-fluid">
+                                
+                                <a class="navbar-brand" href="#">Saveur</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active" href="#">Menu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active" href="#">Reservation</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active" href="#">Contact</a>
+                                    </li>
+                        
+                        
+                                  </ul>
+                                  <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light reserve " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    For Reservation <br>
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h6 class="modal-title about" id="exampleModalLabel">Proof of vaccination is required to dine indoors with us. We will accept your Vaccinated digital certificate, issued by the Central Govt of India . Vaccination proof must be cross checked against your photo ID.</h6>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body bg-dark">
+                            <input type="text" placeholder="Name" class="border border-white mb-3"><br>
+                            <input type="number" placeholder="Number" class="border border-white mb-3"><br>
+                            <input type="date" placeholder="dd/mm/yyyy" class="border border-white mb-3"><br>
+                            <input type="text" placeholder="01:00 PM" class="border border-white mb-3 form"><br>
+                            <select > 
+                              <option value="" >Table for</option>
+                              <option value="">Two</option>
+                              <option value="">Four</option>
+                              <option value="">Family</option>
+                              <option value="">Business Meet</option>
+                            </select>
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Save</button>
+                            <button type="submit" class="btn btn-primary">Make Reservation</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                                </div>
+                              </div>
+                            </nav>
+                          </header>
+                    </div>
+                </div>
+                <!---->
+      
+                <div class="carousel-item" data-bs-interval="1200">
+                  <div class="wier2"></div>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="mayb">DRINK</h5>
+                    <p class="tagl fs-3">Take your freshness</p>
+                  </div>
+                </div>
+                
+      
+                <div class="carousel-item" data-bs-interval="1200">
+                  <div class="wier3"></div>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="mayb">ENJOY</h5>
+                    <p class="tagl fs-3">Choose your favourite</p>
+                  </div>
+                </div>
+      
+                <div class="carousel-item" data-bs-interval="1200">
+                  <div class="wier4"></div>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="mayb">Relax</h5>
+                    <p class="tagl fs-3">Refresh your Mind</p>
+                  </div>
+                </div> 
+      
+              </div>
+        </div>
+
+    <!--about-->
+    <div class="about">
+        <h3 class="text-center"><span>Saveur</span></h3>
+        <p class="text-center">RESTAURANT</p>
+        <h6 class="text-center">FAMILY & FRIENDS BROUGHT TOGETHER BY FOOD IS WHY WE’RE HERE… <br>
+  
+          From unforgettable breakfast  to Famous desserts and soups, to mouth-watering cakes to wings. Our family made it’s name synonymous with the word "flavours", which helps you to choose your choice. 
+  
+          Good quality food with humble customer service... you may not find anywhere else with <br>  <strong> "Saveur Restaurant".</strong>
+  
+          We invite you to stop in to enjoy a comfortable, relaxed atmosphere centered around good food and great people.
+          Experience a new take on some of your favorites or be bold and try something new on our ever changing Saveur
+          menu.</h6>
+      </div>
+
+      <!--food items-->
+      <p class="option">OPT YOUR FAVOURITE
+    </p>
+      <div class=" m-4 text-center fs-3">
+        
+       
+        
+        <div class="menu">
+          <ol type="i">
+  
+  
+  
+            <li><strong>Breakfast</strong><br>
+              <div class="breakfast">
+                <div class="card">
+                  <img src="./images/appam.jpg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Appam and Chicken Stew</h5>
+                    <p class="card-text">Rs.60</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/putt.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2 " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Putt and Kadala Curry</h5>
+                    <p class="card-text">Rs.40</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/dosa.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Dosa and Chutney</h5>
+                    <p class="card-text">Rs.45</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/idli.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Idli and Sambar</h5>
+                    <p class="card-text">Rs.45</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/pathiri.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Pathiri and Chicken curry</h5>
+                    <p class="card-text">Rs.70</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/porotta.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Porotta and Beef</h5>
+                    <p class="card-text">Rs.90</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/idiyappam.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Idiyappam and egg curry</h5>
+                    <p class="card-text">Rs.45</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/kappa.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Kappa and Meen curry</h5>
+                    <p class="card-text">Rs.65</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/masala dosa.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Masala Dosa</h5>
+                    <p class="card-text">Rs.60</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+  
+            </li>
+            <br>
+  
+  
+  
+  
+  
+  
+            <li><strong>Lunch</strong><br>
+              <div class="lunch">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="./images/sadya.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2">
+                    <h5 class="card-title fw-bold fs-6">Kerala Sadya</h5>
+                    <p class="card-text">Rs.80</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/chicken biriyani.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Chicken Biriyani</h5>
+                    <p class="card-text">Rs.100</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/beef biriyani.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2 " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Beef Biriyani</h5>
+                    <p class="card-text">Rs.120</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/prawns biriyani.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Prawns Biriyani</h5>
+                    <p class="card-text">Rs.130</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/american chopsuey noodles.jpg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">American chopsuey</h5>
+                    <p class="card-text">Rs.110</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/veg hakka noodles.jpeg" class="card-img-top w-80 ps-3 pe-3" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Veg Hakka Noodles</h5>
+                    <p class="card-text">Rs.135</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/neychore.jpg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Ghee rice</h5>
+                    <p class="card-text">Rs.75</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/kuzhimandhi.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6"> Chicken Mandhi</h5>
+                    <p class="card-text">Rs.90</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/veg fried.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6"> Veg fried Rice</h5>
+                    <p class="card-text">Rs.100</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/chicken fried.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6"> Chicken Fried Rice</h5>
+                    <p class="card-text">Rs.110</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/chattichore.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6"> Chatti chore</h5>
+                    <p class="card-text">Rs.115</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+            </li>
+            <br>
+  
+  
+  
+  
+  
+  
+            <li><strong>Dinner</strong><br>
+              <div class="Dinner">
+                <div class="card">
+                  <img src="./images/gobi manchurian.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Gobi Manchurian</h5>
+                    <p class="card-text">Rs.120</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/paneer butter masala.jpg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Paneer butter masala</h5>
+                    <p class="card-text">Rs.95</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/alfaham.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">alfaham</h5>
+                    <p class="card-text">Rs.80</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/tandoori.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Tandoori</h5>
+                    <p class="card-text">Rs.75</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/barbecue.jpeg" class="card-img-top w-80 ps-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Barbecue</h5>
+                    <p class="card-text">Rs.95</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+            </li>
+  
+  
+            <li> <strong>Drinks</strong><br>
+              <div class="Drinks">
+  
+                <div class="card">
+                  <img src="./images/orange juice.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Orange Juice</h5>
+                    <p class="card-text">Rs.25</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/grape juice.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Grape Juice</h5>
+                    <p class="card-text">Rs.25</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/oreo milk shake.jpeg" class="card-img-top w-80 ps-3 pe-3 pt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Oreo Milk Shake</h5>
+                    <p class="card-text">Rs.35</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/chocolate peanut butter shake.jpeg" class="card-img-top w-80 ps-3 pt-2 pe-3" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Chocolate peanut butter shake</h5>
+                    <p class="card-text">Rs.45</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/coconut mojito.jpeg" class="card-img-top w-80 ps-3 pt-2 pe-3" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Coconut Mojito</h5>
+                    <p class="card-text">Rs.40</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <img src="./images/blue crush mojito.jpeg" class="card-img-top w-80 ps-3 pt-2 pe-3" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Blue crush mojito</h5>
+                    <p class="card-text">Rs.45</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+
+  
+                <div class="card">
+                  <img src="./images/pistachio milkshake.jpeg" class="card-img-top w-80 ps-3 pt-2 pe-3" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Pistachio Milkshake</h5>
+                    <p class="card-text">Rs.55</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./images/kerala sunset cocktail.jpg" class="card-img-top w-80 ps-3 pt-2 pe-3" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Sunset cocktail</h5>
+                    <p class="card-text">Rs.65</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+
+
+                <div class="card">
+                  <img src="./images/kannur cocktail.jpeg" class="card-img-top w-80 ps-3 pt-2 pe-3" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold fs-6">Kannur Cocktail</h5>
+                    <p class="card-text">Rs.55</p>
+                    <button>Order Now</button>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+          </ol>
+       
+  
+  
+        <h5 class="text-center text-white"> <strong>Soups</strong></h5>
+        <div class="card-group  mt-1">
+          <div class="card">
+            <img src="images/chicken noodle soup.jpeg" class="card-img-top figre" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Chicken noodle soup</h4>
+              <div class="mute">
+                <p class="card-text fs-6"> In a large pot over medium heat, melt butter. Cook onion and celery in butter
+                  until just tender,5 minutes. Pour in chicken and vegetable broths and stir in chicken, noodles, carrots,
+                  basil,oregano, salt and pepper. Bring to a boil, then reduce heat and simmer 20 minutes before serving.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/butternut squash soup.jpg" class="card-img-top figre" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Butternut Squash Soup</h4>
+              <div class="mute">
+                <p class="card-text fs-6">In a dutch oven pot,heat olive oil over medium heat. Add onion and garlic. cook
+                  until softened, about 5 minutes.
+                  Add cut up butternut squash and vegetable broth. Bring to a boil then cover and simmer for 15-20 minutes
+                  until squash is softened.
+                  Carefully pour entire contents of pot into blender. Add salt.
+                  Carefully blend until smooth</p>
+              </div>
+  
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/italian wedding soup.jpeg" class="card-img-top figre" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Italian Wedding Soup</h4>
+              <div class="mute">
+                <p class="card-text fs-6">Wedding soup consists of green vegetables (usually endive and escarole or
+                  cabbage,
+                  lettuce, kale, and/or spinach) and meat (usually meatballs and/or sausage,the latter sometimes made of
+                  chicken and containing Italian parsley and parmesan cheese) in a clear chicken-based broth.
+                  Sometimes contains pasta,lentils,
+                  carrots.</p>
+              </div>
+              
+  
+            </div>
+            
+          </div>
+         
+  
+        </div>
+    </h5>
+  
+      </div>
+      <br>
+      </ol>
+    </div>
+</div>
+</main>
+
+<!--footer-->
+<footer>
+    <div class="foot text-white w-100 h-30 menu ps-3 pt-4 ">
+      <div class="row">
+        <div class="col-3"><h4>Contact Us</h4><br>
+          3rd Street,ABC Nagar,<br>
+          Thrissur, 680577 <br>
+           Kerala <br>
+        </div>
+        <div class="col-3"> 
+          <h4>Newsletter</h4><br>
+          <input type="email" placeholder="Email" ><button type="submit" class="btn btn-light border-0 bg-dark"><i class="fas fa-arrow-right text-white bg-transparent"></i></button><br>
+          <br><a href="" >JOBS</a>
+        </div>
+        <div class="col-3">
+          <h4>Opening Hours</h4>
+          <div class="ps-4"><p>Mon-Sat<br>
+            7am to 11p<br><br>
+            Sunday <br>
+            6 am to 12am</p></div>
+          
+        </div>
+        <div class="col-3">
+          <h4>Connect</h4>
+          <a href="" ><i class="fab fa-facebook fa-2x me-4"></i></a>
+          <a href=""><i class="fab fa-instagram fa-2x me-4"></i></a>
+          <a href=""><i class="fab fa-twitter fa-2x  me-4"></i></a><br> <br>
+          <!-- <i class="fab fa-facebook fa-2x me-4"></i><i class="fab fa-instagram fa-2x me-4"></i><i class="fab fa-twitter fa-2x  me-4"></i><br><br> -->
+          <i class="far fa-envelope pe-2 fa-2x"></i>saveurconnect.res@gmail.com
+
+        </div>
+      </div>
+      <h5 class="text-center">Saveur Reservation</h5>
+      <p class="footb">A 2% service charge will be added to each guest check to ensure competitive industry compensation, as well as health and medical benefits, for all of our valued full time team members. In support of this initiative, the entirety of the charge is retained by the restaurant. If you would like this charge removed, please let our staff know.
+        <br><br><br><span class="spans ps-5">Thank you for dining with us and supporting our staff</span> </p>
+        <br><br> 
+    </div>
+  </footer>     
+    
+</body>
+</html>

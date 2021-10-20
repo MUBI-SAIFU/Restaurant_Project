@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bree+Serif&family=Shadows+Into+Light&display=swap');
+body{
+    background-image:url(https://www.crushpixel.com/big-static17/preview4/italian-food-background-2567133.jpg);
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navbar-brand{
+    font-family: 'Roboto Mono', monospace;
+    color:rgb(165, 82, 5);
+    
+}
+.navbar-brand:hover{
+    background-color: rgb(218, 138, 19);
+    
+}
+.nav-item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firsta{
+  
+    width:255px;
+    height: 420px;
+    float: left;
+}
+.firstb{
+    width:255px;
+    height: 420px;
+    float: left;
+}
+.firstc{
+    width:255px;
+    height: 420px;
+    float: left;
+}
+.firstd{
+    width:255px;
+    height: 420px;
+    float: left;
+}
+.firste{
+    width:255px;
+    height: 420px;
+}
+.tagl{
+    color: darkblue;
+}
+.about span{
+    font-family: 'Roboto Mono', monospace;
+}
+.about span:nth-child(1){
+    color: rgb(165, 82, 5);
+    font-size: 200px;
+}
+.about p{
+    font-family:'Roboto Mono', monospace;
+    color: black;
+   
+   
+    font-size: 50px;
+}
+.about h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin: 30px;
+line-height: 1.6em;
+letter-spacing: .4px;
+font-weight: 400;
+font-style: bold;
+color:rgb(117, 87, 87);
+}
+.menubar{
+    height: 50px;
+  
+
+}
+.menu{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvJ_srJMFHPQ4_TFGVCQvsxHWqUgxpq-LsEg&usqp=CAU);
+    background-size: cover;
+}
+
+.option{
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(15, 14, 12);
+    font-size: 50px;
+    margin-left: 420px;
+    
+}
+
+.card{
+    width:30%;
+    float: left;
+    margin-left: 25px; 
+    margin-bottom: 10px;
+    border: solid 1px burlywood;
+    height: 355px;
+}
+
+
+.card-title{
+color: #330749; 
+
+}
+    
+button{
+        background-color:#8a6006;
+        height: 30px;
+        color: white; 
+        font-size: small;  
+}
+
+button:hover{
+    color: black;
+}
+
+
+.arrange{
+    width: 400px;
+    margin-left: 10px;
+}
+.breakfast{
+    background-color:rgb(64, 100, 98) ;
+    width: 80%;
+    height: 1090px;
+    margin-left: 118px;
+}
+
+.card img{
+    height: 200px;
+    float: left;
+}
+
+.lunch{
+    background-color:rgb(83, 121, 53) ;
+    width: 80%;
+    height: 1455px;
+    margin-left: 118px;
+}
+
+.Dinner{
+    background-color:rgb(141, 41, 10) ;
+    width: 80%;
+    height: 730px;
+    margin-left: 118px;
+}
+li{
+    font-family: 'Roboto Mono', monospace;
+}
+li strong{
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: whitesmoke;
+}
+.Drinks{
+    background-color:rgba(145, 123, 25, 0.918) ;
+    width: 80%;
+    height: 1095px;
+    margin-left: 118px;}
+    h5{
+        font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    }
+    .card-group{
+        width: 1000px;
+        margin-left: 106px;  
+    }
+    .card-group .card{
+        border: solid 1px black;
+        background-color: rgb(226, 226, 207);
+        height: 600px;
+        
+    }
+    .card-group p{
+        font-family: 'Roboto Mono', monospace;
+        text-align:center;
+    }
+    
+
+    .wier{
+        background-color: rgba(0, 0, 0, 0);     
+background-repeat: no-repeat;
+background-image: url("https://images.getbento.com/accounts/4e84fa105d04379104b8a7f98f1f966d/media/images/49169MIC_3946.jpg?fit=max&w=1800&auto=format,compress'");
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 550px;
+opacity: 1;
+visibility: inherit;
+
+font-size: 40px;
+
+
+}
+.mayb{
+    color: rgb(165, 5, 13);
+   
+    font-size:50px;
+}
+    .figre{
+        padding-left: 20px;
+        padding-top: 10px;
+        width: 300px;
+        height: 80px;
+    }
+    .wier2{
+        
+            background-color: rgba(0, 0, 0, 0);
+            background-repeat: no-repeat;
+            background-image: url("https://bestiala.com/wp-content/uploads/sites/4/2017/01/slider3.jpg");
+            background-size: cover;
+            background-position: left center;
+            width: 100%;
+            height: 500px;
+            opacity: 1;
+            visibility: inherit;
+        
+    
+    }
+    .wier3{
+        background-color: rgba(0, 0, 0, 0);
+background-repeat: no-repeat;
+background-image: url("https://bestiala.com/wp-content/uploads/sites/4/2017/01/slider5.jpg");
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 500px;
+opacity: 1;
+visibility: inherit;
+    }
+    .wier4{
+      
+            background-color: rgba(0, 0, 0, 0);
+            background-repeat: no-repeat;
+            background-image: url("https://images.getbento.com/accounts/3aba79963eaec755ff2b03d837bda6a8/media/images/40430SONA_interior_lounge_looking_back_to_bar_and_dining.jpg?fit=max&w=1800&auto=format,compress");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 500px;
+            opacity: 1;
+            visibility: inherit;
+            
+        
+    }
+.mute:hover{
+    background-color: darkkhaki;
+    color: brown;
+}
+footer{
+   margin-left: 10px;
+   
+}
+footer h4{
+    color: #eee0e0;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+
+font-family: 'Indie Flower', cursive;
+}
+footer div{
+    color: rgb(95, 121, 122);
+}
+footer i{
+    size: 10px;
+}
+footer a{
+    color: cadetblue;
+}
+footer h5{
+    color: rgb(165, 5, 13);
+    
+    font-size: 30px;
+
+}
+.footb{
+    font-family:'Roboto Mono', monospace;
+    color:whitesmoke;
+}
+.spans{
+    color: rgb(6, 19, 1);
+font-family:'Roboto Mono', monospace;
+font-size: 30px;
+}
+.reserve{
+    font-family: 'Shadows Into Light', cursive;
+
+    color:rgb(211, 7, 7);
+    font-size: 20px;
+} 
+
